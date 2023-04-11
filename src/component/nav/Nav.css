@@ -1,0 +1,31 @@
+.navb{
+    display: flex;
+    justify-content: center;
+    font-size:xx-large;
+    /* gap: 3rem; */
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+    z-index: 2;
+    left: 50%;
+}
+.navc{
+    
+    border: 2px solid #4db5ff;
+    background: rgba(0,0,0,0.3);
+    border-radius: 30px;
+    position: fixed;
+    display: flex;
+    gap: 1.2rem;
+    padding: 5px 10px;
+    
+}
+/* nav a:hover{
+    background: rgba(0,0,0,0.3);
+    border-radius: 50%;
+} */
+
+ /* a.active{
+    background-color: #eccd05;
+    color:white;
+    
+} */

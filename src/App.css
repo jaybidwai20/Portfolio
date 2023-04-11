@@ -1,38 +1,141 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Mulish&family=Noto+Serif&family=Oswald:wght@500&family=Poppins:wght@600&family=Roboto:ital,wght@0,300;1,300;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background: #1f1f38;
+  color: white;
+  line-height: 1.7;
+  background-image: url('https://media.istockphoto.com/id/182191709/photo/textured-background.jpg?b=1&s=170667a&w=0&k=20&c=zjUlKcyVA0VWNciIgPC0pSgS72wlxqb8WVNoar8CSOw=');
+  background-size: cover;
+
+}
+
+.container{
+  margin: 0 auto;
+  width: 75%;
+}
+h1,h2,h3,h4,h5{
+  font-weight: 500;
+}
+section{
+  margin-top: 8rem;
+}
+
+section >h2,section>h5{
   text-align: center;
+  color: rgba(255,255,255,0.6);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section >h2{
+  color:#4db5ff;
+  margin-bottom: 3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+
+  color:#4db5ff;
+  transition: all 400ms ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+a:hover{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn{
+  width: max-content;
+  display:inline-block;
+  color: #4db5ff;
+  cursor: pointer;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  border:1px solid #4db5ff;
+  transition: all 400ms ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.btn:hover{
+  background: white;
+  color:#1f1f38;
+  border-color: transparent;
+}
+.btn-primary{
+  background: #4db5ff;
+  color:#1f1f38;
+}
+img{
+  display: block;
+  width:100%;
+  object-fit: cover;
+}
+@media screen   and (max-width:1024px)
+{
+  .container{
+    width:86%;
   }
-  to {
-    transform: rotate(360deg);
+  section{
+    margin-top: 6rem;
   }
 }
+
+@media screen   and (max-width:600px)
+{
+  .container{
+    width:90%;
+  }
+  section >h2{
+    margin-bottom: 2rem;
+  }
+}
+
+/* .me{
+  height: 300px;
+  width:500px;
+  object-fit: cover;
+
+} */
+/* .active2{
+  background-color: rgba(214, 33, 33, 0.6);
+  border-radius: 50% ;
+  transition: smooth;
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

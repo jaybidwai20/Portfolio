@@ -1,0 +1,55 @@
+.client_avtar{
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    /* border:0.4rem solid ; */
+}
+.container.testmonials_container{
+    width:30%;
+}
+.testmonials_container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+.testmonial{
+    background: #2c2c6c;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+.client_review{
+    color:rgba(255,255,255,0.6);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin:0.8rem auto 0;
+}
+.client_img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+@media screen and (max-width:1024px) {
+
+    .container.testmonials_container{
+        width:60%;
+    }
+
+    
+}
+@media screen and(max-width:600px){
+
+.container.testmonials_container{
+    width:90%;
+}
+
+.client_review{
+    text-align: start;
+}
+
+
+}
